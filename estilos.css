@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(252, 252, 251);
+	color: #f1eeee;
+	font-family: 'Roboto', sans-serif;
+}
+
+header h1{
+	color: #ffd502;
+	margin: 15px;
+	float: right;
+}
+header {
+    background-color: #1D202B;
+    color: #fff;
+    padding: 20px 0;
+	text-align: left;
+}
+ nav ul{
+	list-style: none;
+	padding: 20PX;
+}
+
+nav ul li{
+	display: inline;
+	
+}
+
+nav ul li a{
+	color: rgb(229, 237, 2);
+	text-decoration: wavy;
+	padding: 0 10px;
+	
+}
+
+a{
+	text-decoration: double;
+	color: #ffd502;
+}
+p{
+	color: #ffffff;
+}
+h1{
+	color: black;
+	text-align: center;
+}
+.contenedor {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: flex;
+	gap: 20PX;
+}
+
+
+
+.contenedor-partidos{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	width: calc(44% - 12px);
+}
+
+.card .textos {
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;	
+	
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+	width: 45%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	text-decoration: solid;
+}
+.liber{
+	color: #1D202B;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
